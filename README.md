@@ -1,4 +1,4 @@
-# 🐕 Albert — ESP32 Quadruped Robot Dog
+# Albert Mini — ESP32 Quadruped Robot Dog
 
 Albert is an 8-servo quadruped robot dog powered by an ESP32 and a PCA9685 PWM driver. He walks, spins, dances, does push-ups, and more — all controllable over Serial or Bluetooth.
 
@@ -21,8 +21,8 @@ Albert is an 8-servo quadruped robot dog powered by an ESP32 and a PCA9685 PWM d
 
 ```
   FRONT
- 0,1   2,3      ← FL hip/knee, FR hip/knee
- 4,5   6,7      ← BL hip/knee, BR hip/knee
+ 3,2   0,1      ← FL hip/knee, FR hip/knee
+ 7,6   4,5      ← BL hip/knee, BR hip/knee
   BACK
 ```
 
